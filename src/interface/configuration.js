@@ -166,6 +166,8 @@ XML3D.classInfo['asset'] = {
     src: {a: XML3D.ReferenceHandler},
     name: {a: XML3D.StringAttributeHandler},
     pick: {a: XML3D.StringAttributeHandler},
+    transform: {a: XML3D.ReferenceHandler},
+    shader: {a: XML3D.ReferenceHandler},
     _term: undefined
 };
 /**
@@ -260,6 +262,8 @@ XML3D.classInfo['model'] = {
     setWorldSpaceBoundingBox: {m: XML3D.methods.meshSetWorldSpaceBoundingBox},
     src: {a: XML3D.ReferenceHandler},
     pick: {a: XML3D.StringAttributeHandler},
+    transform: {a: XML3D.ReferenceHandler},
+    shader: {a: XML3D.ReferenceHandler},
     _term: undefined
 };
 /**
